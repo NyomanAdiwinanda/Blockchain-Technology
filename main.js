@@ -31,7 +31,7 @@ class BlockChain {
   }
 
   createFirstBlock() {
-    return new Block(null);
+    return new Block();
   }
 
   getLatestBlock() {
